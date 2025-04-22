@@ -35,6 +35,7 @@ def split_vector(data_pairs):
 
     return X, y
 
+# Train Test Val Spliting
 def train_test_split(data):
     if data == "train":
         X, y = split_vector(train_pairs) 
