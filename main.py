@@ -59,4 +59,4 @@ def training_testing_model():
             optimizer.step()
 
         if epochs % 10 == 0:
-            print(f'Epoch {epoch}, Loss: {loss}')
+            print(f'Epoch {epochs}, Loss: {loss.item()}')
