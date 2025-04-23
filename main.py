@@ -6,6 +6,10 @@ from torch.utils.data import Dataset, DataLoader
 import numpy as np
 from data_handler import train_test_split, tokens
 
+# Device Configuration
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print(f"Using device: {device}")
+
 # Data Loader Class
 class SimpleDataset(Dataset):
     def __init__(self, X, y):
@@ -16,6 +20,7 @@ class SimpleDataset(Dataset):
     def __getitem__(self, i):
         return self.X[i], self.y[i]
 
+# Model Class
 class FeedForwardNeuralNetwork(nn.Module):
     def __init__(self, vocab_size, output_size):
         super(FeedForwardNeuralNetwork, self).__init__()
@@ -29,14 +34,15 @@ class FeedForwardNeuralNetwork(nn.Module):
         x = self.layer3(x)
         return x
 
+# Training and Testing Function
 def training_testing_model():
-    # Parameters for model
+    # Data Split
     X_train, y_train = train_test_split("train")
     X_test, y_test = train_test_split("test")
     X_val, v_test = train_test_split("val")
     num_outputs = len(set(y_train))
 
-    # Create data loaders
+    # Datasets and DataLoaders
     train_dataset = SimpleDataset(X_train, y_train)
     val_dataset = SimpleDataset(X_val, v_test)
     test_dataset = SimpleDataset(X_test, y_test)
@@ -45,10 +51,10 @@ def training_testing_model():
     val_loader = DataLoader(val_dataset, batch_size=16)
     test_loader = DataLoader(test_dataset, batch_size=16)
 
-    # Initialize model
-    model = FeedForwardNeuralNetwork(vocab_size=len(tokens), output_size=num_outputs)
+    # Initialize model and move to device
+    model = FeedForwardNeuralNetwork(vocab_size=len(tokens), output_size=num_outputs).to(device)
 
-    # Loss and optimizer
+    # Loss and Optimizer
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
 
@@ -56,6 +62,9 @@ def training_testing_model():
     for epochs in range(100):
         model.train()
         for X_batch, y_batch in train_loader:
+            X_batch = X_batch.to(device)
+            y_batch = y_batch.to(device)
+
             y_pred = model(X_batch)
 
             loss = criterion(y_pred, y_batch)
@@ -63,8 +72,7 @@ def training_testing_model():
             loss.backward()
             optimizer.step()
 
-        if epochs % 10 == 0:
-            print(f'Epoch {epochs}, Loss: {loss.item()}')
-
+        if epochs % 5 == 0:
+            print(f'Epoch {epochs}, Loss: {loss.item():.4f}')
 
 training_testing_model()

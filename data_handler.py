@@ -24,7 +24,7 @@ def bow_vector(sentence):
 
     for word in word_tokenize(sentence.lower()): #tokenize the sentence provided
         if word in word2idx: #ignore words that are not in tokens
-            vector[word2idx[word]] = 1.0  
+            vector[word2idx[word]] += 1.0  
 
     return vector
 
