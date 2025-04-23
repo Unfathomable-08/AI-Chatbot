@@ -37,12 +37,15 @@ class FeedForwardNeuralNetwork(nn.Module):
 # Training and Testing Function
 def training_testing_model():
     # Data Split
+    print("Splitting the data...")
     X_train, y_train = train_test_split("train")
     X_test, y_test = train_test_split("test")
     X_val, v_test = train_test_split("val")
     num_outputs = len(set(y_train))
+    print(f"Data split complete. Training data size: {len(X_train)}, Test data size: {len(X_test)}, Validation data size: {len(X_val)}")
 
     # Datasets and DataLoaders
+    print("Creating datasets and dataloaders...")
     train_dataset = SimpleDataset(X_train, y_train)
     val_dataset = SimpleDataset(X_val, v_test)
     test_dataset = SimpleDataset(X_test, y_test)
@@ -52,6 +55,7 @@ def training_testing_model():
     test_loader = DataLoader(test_dataset, batch_size=16)
 
     # Initialize model and move to device
+    print("Initializing model and moving it to the device...")
     model = FeedForwardNeuralNetwork(vocab_size=len(tokens), output_size=num_outputs).to(device)
 
     # Loss and Optimizer
@@ -59,9 +63,12 @@ def training_testing_model():
     optimizer = optim.Adam(model.parameters(), lr=0.001)
 
     # Training Loop
-    for epochs in range(100):
+    print("Starting training loop...")
+    for epoch in range(100):
         model.train()
-        for X_batch, y_batch in train_loader:
+        print(f"\nEpoch {epoch + 1} / 100")
+        
+        for batch_idx, (X_batch, y_batch) in enumerate(train_loader):
             X_batch = X_batch.to(device)
             y_batch = y_batch.to(device)
 
@@ -72,7 +79,14 @@ def training_testing_model():
             loss.backward()
             optimizer.step()
 
-        if epochs % 5 == 0:
-            print(f'Epoch {epochs}, Loss: {loss.item():.4f}')
+            # Print progress every 100 batches
+            if batch_idx % 100 == 0:
+                print(f"Batch {batch_idx}, Loss: {loss.item():.4f}")
+
+        # Print every 5th epoch
+        if epoch % 5 == 0:
+            print(f'Epoch {epoch + 1}, Loss: {loss.item():.4f}')
+
+    print("Training completed.")
 
 training_testing_model()
