@@ -50,9 +50,9 @@ def training_testing_model():
     val_dataset = SimpleDataset(X_val, v_test)
     test_dataset = SimpleDataset(X_test, y_test)
 
-    train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True)
-    val_loader = DataLoader(val_dataset, batch_size=16)
-    test_loader = DataLoader(test_dataset, batch_size=16)
+    train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True, num_workers=4, pin_memory=True)
+    val_loader = DataLoader(val_dataset, batch_size=16, num_workers=4, pin_memory=True)
+    test_loader = DataLoader(test_dataset, batch_size=16, num_workers=4, pin_memory=True)
 
     # Initialize model and move to device
     print("Initializing model and moving it to the device...")
@@ -64,7 +64,7 @@ def training_testing_model():
 
     # Training Loop
     print("Starting training loop...")
-    for epoch in range(100):
+    for epoch in range(10):
         model.train()
         print(f"\nEpoch {epoch + 1} / 100")
         
@@ -84,7 +84,7 @@ def training_testing_model():
                 print(f"Batch {batch_idx}, Loss: {loss.item():.4f}")
 
         # Print every 5th epoch
-        if epoch % 5 == 0:
+        if epoch % 1 == 0:
             print(f'Epoch {epoch + 1}, Loss: {loss.item():.4f}')
 
     print("Training completed.")
