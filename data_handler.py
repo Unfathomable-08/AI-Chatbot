@@ -45,8 +45,3 @@ def train_test_split(data):
         X, y = split_vector(validation_pairs)  
 
     return X, y
-
-X, y = train_test_split("train")
-
-print(X[:5])
-print(y[:5])

@@ -4,10 +4,10 @@ from nltk.tokenize import word_tokenize
 from nltk.tag import pos_tag
 import string
 
-# nltk.download("punkt")
-# nltk.download('punkt_tab')
-# nltk.download('averaged_perceptron_tagger')
-# nltk.download('averaged_perceptron_tagger_eng')
+nltk.download("punkt")
+nltk.download('punkt_tab')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
 
 # Define unwanted Part Of Speech (POS) tags
 unwanted_tags = ['PRP', 'PRP$', 'DT', 'IN', 'CC', 'TO', 'MD', 'RP']
