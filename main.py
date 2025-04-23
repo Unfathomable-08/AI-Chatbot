@@ -45,11 +45,12 @@ def training_testing_model():
     print(f"Data split complete. Training data size: {len(X_train)}, Test data size: {len(X_test)}, Validation data size: {len(X_val)}")
 
     # Datasets and DataLoaders
-    print("Creating datasets and dataloaders...")
+    print("Creating datasets ...")
     train_dataset = SimpleDataset(X_train, y_train)
     val_dataset = SimpleDataset(X_val, v_test)
     test_dataset = SimpleDataset(X_test, y_test)
 
+    print("Creating dataloaders...")
     train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True, num_workers=4, pin_memory=True)
     val_loader = DataLoader(val_dataset, batch_size=16, num_workers=4, pin_memory=True)
     test_loader = DataLoader(test_dataset, batch_size=16, num_workers=4, pin_memory=True)
