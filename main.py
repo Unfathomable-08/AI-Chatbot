@@ -60,3 +60,6 @@ def training_testing_model():
 
         if epochs % 10 == 0:
             print(f'Epoch {epochs}, Loss: {loss.item()}')
+
+
+training_testing_model()
