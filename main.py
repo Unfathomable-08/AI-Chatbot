@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 import numpy as np
@@ -36,6 +37,10 @@ def training_testing_model():
     num_outputs = len(set(y_train))
 
     # Create data loaders
+    train_dataset = SimpleDataset(X_train, y_train)
+    val_dataset = SimpleDataset(X_val, v_test)
+    test_dataset = SimpleDataset(X_test, y_test)
+
     train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True)
     val_loader = DataLoader(val_dataset, batch_size=16)
     test_loader = DataLoader(test_dataset, batch_size=16)
