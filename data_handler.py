@@ -47,4 +47,4 @@ def train_test_split(data):
     return X, y
 
 X, y = train_test_split("train")
-print(X[:20])
+print(X[:6])
