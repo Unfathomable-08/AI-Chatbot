@@ -85,7 +85,6 @@ optimizer = optim.Adam(model.parameters(), lr=0.001)
 def training_testing_model(epochs=10):
     print("Starting training loop...")
     for epoch in range(epochs):
-        check_memory()
         model.train()
         print(f"\nEpoch {epoch + 1} / {epochs}")
         total_loss = 0

@@ -20,6 +20,3 @@ def train_test_split(data):
     elif data == "val":
         X, y = split_vector_sparse(validation_pairs, word2idx)
     return X, y
-
-X, y = train_test_split("train")
-print(X[:6])  # Sparse matrix slice
