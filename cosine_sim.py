@@ -2,7 +2,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from scipy.sparse import csr_matrix
 from data_proceeding import dialog_separator, tokenization, split_vector_sparse, bow_vector_sparse
-from data_handler import train_test_split, word2idx
+from data_handler import train_test_split, word2idx, train_pairs
 
 def compute_cosine_similarity(input_sentence):
     # Convert input sentence to sparse vector
@@ -17,7 +17,7 @@ def compute_cosine_similarity(input_sentence):
 
     # Get index of most similar sentence
     best_idx = similarities.argmax()
-    return X[best_idx]
+    return train_pairs[best_idx + 1]
 
 while True:
     dialog = input("Enter dialog (or 'quit' to exit): ")
