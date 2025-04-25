@@ -67,12 +67,3 @@ def predict_dialog_act(dialog, word2idx, model, device, vocab_size):
     except Exception as e:
         print(f"Error during prediction: {e}")
         return None
-
-while True:
-    dialog = input("Enter dialog (or 'quit' to exit): ")
-    if dialog.lower() == 'quit':
-        break
-    predicted_act = predict_dialog_act(dialog, word2idx, model, device, vocab_size=len(tokens))
-    if predicted_act is not None:
-        print(f"Predicted dialog act (original): {predicted_act}")
-        print(f"Reindexed (after subtracting 1): {predicted_act - 1}")
