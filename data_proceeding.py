@@ -16,8 +16,8 @@ def dialog_separator(dataset):
     for data in dataset:
         dialogs = data["dialog"]
         acts = data["acts"]
-        for i in range(len(dialogs) - 1):
-            pairs.append((dialogs[i], acts[i + 1]))
+        for i in range(len(dialogs)):
+            pairs.append((dialogs[i], acts[i]))
     return pairs
 
 def tokenization(data):
@@ -48,6 +48,6 @@ def split_vector_sparse(data_pairs, word2idx, act2idx):
         row_indices.extend([i] * len(values))
         col_indices.extend(indices)
         y.append(act2idx.get(act, -1))
-        
+
     X = csr_matrix((data, (row_indices, col_indices)), shape=(len(data_pairs), len(word2idx)))
     return X, y

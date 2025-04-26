@@ -1,8 +1,38 @@
 [
     {
         "dialog": [
+            "" ,
+            "Alright, let's chat! What's on your mind today?"
+        ] ,
+        "acts": [
+            "greeting" ,
+            "suggestion"
+        ]
+    } ,
+    {
+        "dialog": [
             "Hey , how's it going ?" ,
             "Pretty good , thanks for asking ! You ?"
+        ] ,
+        "acts": [
+            "greeting" ,
+            "greeting"
+        ]
+    } ,
+    {
+        "dialog": [
+            "I am fine" ,
+            "Glad to know , what should we chat about today"
+        ] ,
+        "acts": [
+            "greeting" ,
+            "greeting"
+        ]
+    } ,
+    {
+        "dialog": [
+            "I'm fine" ,
+            "Glad to know , what should we chat about today"
         ] ,
         "acts": [
             "greeting" ,
