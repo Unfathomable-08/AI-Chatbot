@@ -1,0 +1,2602 @@
+[
+    {
+        "dialog": [
+            "Hey, how's it going?",
+            "Pretty good, thanks for asking! You?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What's up with you today?",
+            "Just hanging out, ready to chat. What's your vibe?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Gotta go, catch you later?",
+            "For sure, talk soon!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You're really fun to talk to!",
+            "Thanks! You're pretty awesome too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the great chat!",
+            "Anytime, glad you enjoyed it!"
+        ],
+        "acts": [
+            "gratitude",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Sorry, I missed that. Say again?",
+            "No prob, I said I'm super excited today!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you tell me a fun fact?",
+            "Sure! Did you know octopuses can change color to blend in?"
+        ],
+        "acts": [
+            "request",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Is it okay to talk about games?",
+            "Totally, I love games! What's your favorite?"
+        ],
+        "acts": [
+            "request",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How about we chat about music?",
+            "Awesome idea! What's a song you can't stop listening to?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I'm feeling a bit bored.",
+            "Oh, let's fix that! Wanna talk about something fun?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Hi there, how's your day going?",
+            "Hey! It's going great, thanks. Yours?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What do you like to chat about most?",
+            "I enjoy talking about movies! What's your thing?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "This was fun, but I gotta run!",
+            "No worries, come back anytime!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You have such a cool vibe!",
+            "Aw, thanks! You're pretty chill yourself."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for being so helpful!",
+            "Happy to help! What's next?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Oops, my bad, I didn't mean that!",
+            "All good, mistakes happen. What's up now?"
+        ],
+        "acts": [
+            "apology",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you suggest a fun topic?",
+            "How about we talk about your favorite hobby?"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "Are you up for a quick chat?",
+            "Yup, I'm here! What's on your mind?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "Maybe we should talk about food?",
+            "Love that idea! What's your go-to dish?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I'm super happy today!",
+            "That's so great to hear! What's got you smiling?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Yo, what's good?",
+            "Not much, just ready to chat! You good?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What's the best thing you talked about today?",
+            "Probably games! What's the best thing you did today?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I gotta head out, talk tomorrow?",
+            "Sounds good, see ya!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You're so easy to talk to!",
+            "Thanks, you're making this fun too!"
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the awesome convo!",
+            "You're welcome! Let's do it again soon."
+        ],
+        "acts": [
+            "gratitude",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "Sorry, I got that wrong. Can you clarify?",
+            "No biggie, I meant let's talk about movies!"
+        ],
+        "acts": [
+            "apology",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you tell me something funny?",
+            "Sure! Why don't programmers prefer dark mode? Because the light attracts bugs."
+        ],
+        "acts": [
+            "request",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Is it cool to ask about your favorite book?",
+            "Absolutely, I love books! What's yours?"
+        ],
+        "acts": [
+            "request",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How about we discuss travel?",
+            "Sweet! Where's a place you wanna visit?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I'm kinda stressed out right now.",
+            "Sorry to hear that. Wanna talk it out?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Hey, how's your evening going?",
+            "Pretty chill, thanks! How's yours?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What kind of stuff do you enjoy chatting about?",
+            "I'm into music and movies. What's your jam?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I'm out for now, but this was great!",
+            "Glad you had fun! Hit me up later."
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You make chatting so enjoyable!",
+            "Thanks, you're pretty great to talk to too!"
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for keeping the convo going!",
+            "No problem, it's been fun!"
+        ],
+        "acts": [
+            "gratitude",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "My bad, I didn't follow. What's up?",
+            "It's cool, I was asking about your day!"
+        ],
+        "acts": [
+            "apology",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you share a cool idea?",
+            "How about planning a virtual movie night?"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "You good with talking about pets?",
+            "Yup, love pets! Do you have any?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "Maybe we could talk about hobbies?",
+            "Nice one! What's a hobby you're into?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I'm feeling really tired today.",
+            "That’s rough. Wanna share what's been going on?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Hey, what's the mood today?",
+            "Feeling good! What's your mood?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s something fun you’ve chatted about lately?",
+            "I had a blast talking about food! What's fun for you?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Gotta bounce, but let’s chat again!",
+            "Cool, see you next time!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You're such a great conversationalist!",
+            "Thanks! You're making it easy."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the fun talk!",
+            "Anytime! What's next on your mind?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Sorry, I messed up there. Can you repeat?",
+            "No stress, I was saying I love music!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you tell me a quick story?",
+            "Once, a cat chased its tail and became a viral star!"
+        ],
+        "acts": [
+            "request",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Is it alright to talk about sports?",
+            "Sure is! What's your favorite sport?"
+        ],
+        "acts": [
+            "request",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How about we chat about tech?",
+            "Sweet idea! What's a gadget you love?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I'm so excited for the weekend!",
+            "Nice! What's your weekend plan?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Yo, how you holding up?",
+            "Doing great, thanks! You?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What's the coolest topic you’ve talked about?",
+            "Probably travel! What's cool for you?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m off, but this was awesome!",
+            "Loved it! Come back soon."
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re super fun to chat with!",
+            "Right back at ya! Thanks!"
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the great vibes!",
+            "You're welcome! Keep the good vibes going."
+        ],
+        "acts": [
+            "gratitude",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Oops, I got confused. What’d you say?",
+            "All good, I was talking about games!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you suggest something to cheer me up?",
+            "How about watching a funny cat video?"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "You cool with chatting about art?",
+            "Totally! What's an art style you like?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "Maybe we should talk about nature?",
+            "Great call! What's a place in nature you love?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m feeling a bit lonely.",
+            "I’m here for you! Wanna chat about something fun?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Hey, how’s it hanging?",
+            "All good here! How about you?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a topic you love to dive into?",
+            "I’m big on hobbies! What’s yours?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Gotta jet, but let’s talk again!",
+            "Sure thing, take care!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You make conversations so lively!",
+            "Thanks! You’re bringing the energy too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the awesome chat session!",
+            "My pleasure! What’s next?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Sorry, I didn’t get that. One more time?",
+            "No worries, I was asking about your favorite movie!"
+        ],
+        "acts": [
+            "apology",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you share a fun idea for today?",
+            "How about trying a new recipe?"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "Is it okay to talk about fashion?",
+            "Yup, love it! What’s your style?"
+        ],
+        "acts": [
+            "request",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How about we discuss dreams?",
+            "Cool idea! What’s a dream you’ve had?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m so pumped for today!",
+            "Love that energy! What’s got you excited?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Hi, what’s the vibe today?",
+            "Super chill! What’s yours?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s something cool you’ve talked about?",
+            "I enjoyed chatting about music! You?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m heading out, but this was fun!",
+            "Awesome, let’s do it again!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re such a great chat buddy!",
+            "Thanks, you’re pretty awesome too!"
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for making this so fun!",
+            "Glad you think so! What’s up next?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "My bad, I lost track. What’s up?",
+            "It’s cool, I was talking about hobbies!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you tell me something inspiring?",
+            "Sure! Every day’s a new chance to chase your dreams!"
+        ],
+        "acts": [
+            "request",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "You good with talking about food?",
+            "Absolutely! What’s your favorite cuisine?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "Maybe we could chat about movies?",
+            "Nice! What’s a movie you love?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m feeling kinda down today.",
+            "Sorry to hear that. Wanna talk about it?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Hey, how’s your day been?",
+            "Pretty awesome, thanks! Yours?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a fun thing to talk about?",
+            "I love games! What’s fun for you?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I gotta go, but let’s catch up later!",
+            "Sounds good, take care!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re so good at keeping the convo going!",
+            "Thanks! You’re making it fun too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the great talk!",
+            "No prob, it was fun! Let’s do it again."
+        ],
+        "acts": [
+            "gratitude",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "Sorry, I didn’t catch that. Repeat?",
+            "All good, I said I’m into music!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you suggest a fun activity?",
+            "How about listening to a new playlist?"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "Is it cool to talk about travel?",
+            "Totally! Where’s a place you’ve been?"
+        ],
+        "acts": [
+            "request",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How about we talk about pets?",
+            "Love that! Do you have a pet?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m super excited about tomorrow!",
+            "That’s awesome! What’s happening?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Yo, what's the vibe this morning?",
+            "Feeling fresh and ready to chat! You?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s something you’ve been excited about lately?",
+            "I’ve been loving chats about new shows! What’s exciting you?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m signing off for now, talk later?",
+            "Definitely, hit me up anytime!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’ve got such a great energy!",
+            "Thanks! You’re bringing some awesome vibes too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for making this chat so fun!",
+            "My pleasure! Glad we’re having a blast."
+        ],
+        "acts": [
+            "gratitude",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Whoops, I didn’t catch that. What’s up?",
+            "No stress, I was just saying I’m in a great mood!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you share a quick joke?",
+            "Why did the computer go to art school? It wanted to learn to draw a better byte!"
+        ],
+        "acts": [
+            "request",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Is it cool to chat about dancing?",
+            "Totally, I’m all for it! What’s your dance style?"
+        ],
+        "acts": [
+            "request",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How about we talk about your favorite season?",
+            "Nice idea! I’m curious, which season do you love?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m feeling a bit overwhelmed today.",
+            "That’s tough. Wanna share what’s going on?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Hey, how’s your afternoon going?",
+            "Pretty relaxed, thanks for asking! Yours?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a topic you never get tired of?",
+            "I could talk about food all day! What’s yours?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Gotta run, but this was awesome!",
+            "Loved it! Catch you later."
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re so great at keeping things lively!",
+            "Thanks! You’re making this super fun too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the amazing conversation!",
+            "You’re welcome! What’s next on your mind?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Sorry, I got mixed up. Can you repeat?",
+            "No worries, I was talking about my love for coffee!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you suggest a way to relax?",
+            "How about listening to some calming music?"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "You okay with talking about festivals?",
+            "Yup, sounds fun! What’s a festival you enjoy?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "Maybe we could chat about photography?",
+            "Great call! What kind of photos do you like taking?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m really pumped for a party tonight!",
+            "That sounds like a blast! What’s the occasion?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s good, my friend?",
+            "Just chilling and ready to talk! You?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s something fun you’ve done recently?",
+            "I had a great time chatting about adventures! What about you?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m out for now, see you soon?",
+            "For sure, take care!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’ve got such a cool way of chatting!",
+            "Aw, thanks! You’re pretty awesome at this too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for keeping the vibe so positive!",
+            "Happy to do it! What’s keeping you smiling?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "My bad, I missed that. What’d you say?",
+            "It’s all good, I was mentioning my favorite show!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you tell me something to lift my mood?",
+            "Picture a puppy chasing its tail—it’s pure joy!"
+        ],
+        "acts": [
+            "request",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Is it alright to talk about cooking?",
+            "Absolutely, I’m in! What’s a dish you love to make?"
+        ],
+        "acts": [
+            "request",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How about we discuss your dream vacation?",
+            "Love that idea! Where would you go on your dream trip?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m feeling super chill today.",
+            "Nice, love that vibe! What’s got you so relaxed?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Hey there, how’s it going?",
+            "Feeling great, thanks! How about you?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a convo topic you’re really into?",
+            "I’m all about festivals! What’s your favorite topic?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I gotta head out, but let’s chat again!",
+            "Sounds good, see ya soon!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You make chatting feel so effortless!",
+            "Thanks! You’re making it a breeze too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the awesome talk!",
+            "Anytime! What’s next for us to chat about?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Sorry, I didn’t follow. Can you say that again?",
+            "No prob, I was talking about my love for hiking!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you suggest a fun weekend plan?",
+            "How about a movie marathon with some snacks?"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "You cool with chatting about gadgets?",
+            "Yup, I’m game! What’s a gadget you’re into?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "Maybe we should talk about fitness?",
+            "Great suggestion! What’s your favorite way to stay active?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m kinda nervous about a big day tomorrow.",
+            "I hear ya. Wanna talk about what’s coming up?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s up, how’s your day?",
+            "All good here! How’s your day going?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a fun thing you’ve talked about today?",
+            "I had a blast chatting about concerts! You?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m off, but this was great!",
+            "Loved it! Come back soon."
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re such a fun chat partner!",
+            "Right back at ya! Thanks for the vibes."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the great energy!",
+            "You’re welcome! What’s keeping you energized?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Oops, I got that wrong. What’s up?",
+            "No biggie, I was mentioning my favorite book!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you share a cool hobby idea?",
+            "Try painting—it’s super relaxing and fun!"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "Is it okay to talk about gardening?",
+            "Sure is! What do you grow in your garden?"
+        ],
+        "acts": [
+            "request",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How about we chat about superheroes?",
+            "Awesome! Who’s your favorite superhero?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m so excited for a new game release!",
+            "That’s cool! What game are you hyped for?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Hey, what’s the mood today?",
+            "Super upbeat! What’s your mood like?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a topic you’d love to explore?",
+            "I’m curious about space! What about you?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Gotta go, but let’s talk tomorrow!",
+            "Cool, see you then!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re so good at making chats fun!",
+            "Thanks! You’re bringing the fun too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the awesome convo!",
+            "No problem! Let’s keep it going later."
+        ],
+        "acts": [
+            "gratitude",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "Sorry, I lost track. What’d you say?",
+            "It’s fine, I was talking about my love for puzzles!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you tell me something motivational?",
+            "You’ve got this—every step forward counts!"
+        ],
+        "acts": [
+            "request",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "You good with talking about anime?",
+            "Totally! What’s an anime you love?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "Maybe we could talk about board games?",
+            "Nice one! What’s a board game you enjoy?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m feeling really inspired today!",
+            "That’s amazing! What’s sparking your inspiration?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Hi, how’s it going today?",
+            "Feeling awesome, thanks! You?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s something you love chatting about?",
+            "I’m into photography! What’s your thing?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m heading out, but this was fun!",
+            "Glad you enjoyed it! Talk soon."
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You make every chat so enjoyable!",
+            "Thanks! You’re a blast to talk to."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the great talk today!",
+            "You’re welcome! What’s up next?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "My bad, I didn’t get that. Repeat?",
+            "No worries, I was saying I love dancing!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you suggest a creative activity?",
+            "How about writing a short story?"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "Is it cool to talk about comedy?",
+            "Sure thing! What’s a comedian you like?"
+        ],
+        "acts": [
+            "request",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How about we discuss your favorite holiday?",
+            "Sweet idea! What’s a holiday you love?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m feeling a bit tired today.",
+            "Sorry to hear that. Wanna chat about something relaxing?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s good, how’s your evening?",
+            "Pretty chill, thanks! How’s yours?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a fun convo you’ve had recently?",
+            "I loved talking about road trips! You?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I gotta bounce, but let’s chat later!",
+            "Cool, take care and come back!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re such an awesome chat buddy!",
+            "Thanks! You’re pretty great too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for making this so fun!",
+            "Happy to! What’s next on your list?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Sorry, I messed up there. What’s up?",
+            "It’s all good, I was talking about my favorite podcast!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you share a fun fact about animals?",
+            "Did you know penguins propose with pebbles?"
+        ],
+        "acts": [
+            "request",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "You okay with chatting about fashion trends?",
+            "Yup, I’m in! What’s a trend you’re into?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "Maybe we should talk about music festivals?",
+            "Awesome! What’s a festival you’d love to attend?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m super stoked for a concert soon!",
+            "That’s so cool! Who’re you seeing?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Hey, what’s the deal today?",
+            "Just ready to chat! What’s up with you?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a topic that always gets you going?",
+            "I love diving into adventure stories! You?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m out, but this was a blast!",
+            "So fun! Let’s do it again soon."
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’ve got such a great chat style!",
+            "Thanks! You’re killing it too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the fantastic convo!",
+            "You’re welcome! Let’s keep the good times rolling."
+        ],
+        "acts": [
+            "gratitude",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "Sorry, I didn’t catch that. One more time?",
+            "No prob, I was saying I’m into yoga!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you suggest something to do tonight?",
+            "How about stargazing with a cozy blanket?"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "Is it alright to talk about video games?",
+            "Totally! What’s a game you’re playing?"
+        ],
+        "acts": [
+            "request",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How about we chat about your favorite book?",
+            "Nice idea! What’s a book you’d recommend?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m feeling really happy today!",
+            "Love that! What’s making you so happy?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Yo, what’s the dealio today?",
+            "Just vibin’, ready to chat! What’s your deal?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s the hottest thing you’ve been chatting about?",
+            "Been buzzing about TikTok trends! What’s hot for you?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Gotta dip, but we’ll catch up, yeah?",
+            "Bet, slide back soon!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "Dude, you’re straight-up fun to talk to!",
+            "Yo, thanks! You’re legit awesome too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Big thanks for the dope chat!",
+            "No sweat, it’s been a blast!"
+        ],
+        "acts": [
+            "gratitude",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "My bad, totally spaced on that. What’s good?",
+            "Chill, I was just hypin’ up my love for smoothies!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you drop a funny meme idea?",
+            "How ‘bout a cat in sunglasses with ‘Too cool for Monday’?"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "You down to talk about viral videos?",
+            "Heck yeah, I’m in! What’s a vid you’re obsessed with?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "Yo, let’s chat about self-care routines?",
+            "Fire idea! What’s your go-to way to chillax?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Ugh, I’m lowkey stressed today.",
+            "That’s rough, fam. Wanna spill what’s up?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s poppin’, my dude?",
+            "Just keepin’ it real! What’s poppin’ with you?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a convo that’s been totally lit lately?",
+            "Been vibin’ on playlist ideas! What’s lit for you?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m bouncin’, but we’ll talk soon, right?",
+            "For sure, don’t ghost me!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re giving off major cool vibes!",
+            "Ayy, thanks! You’re straight-up vibey too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for keeping this chat 100!",
+            "Yo, anytime! What’s next?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Oops, fumbled that one. What’d you say?",
+            "No biggie, I was hyped about binge-watching shows!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you hit me with a chill activity idea?",
+            "Try journaling with some lo-fi beats in the background!"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "You cool with chatting about influencers?",
+            "Totally, I’m game! Who’s an influencer you follow?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How ‘bout we talk about guilty pleasure snacks?",
+            "Yesss, love that! What’s your sneaky fave snack?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m super hyped for a new show drop!",
+            "That’s dope! What show’s got you pumped?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Ayy, what’s good today?",
+            "Just chillin’ like a villain! What’s good with you?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a topic you’re totally stoked about?",
+            "I’m all in for podcast recs! What’s your vibe?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Gotta jet, but this was fire!",
+            "Bet, come back for round two!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re lowkey the best to chat with!",
+            "Yo, thanks! You’re highkey awesome too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the epic chat sesh!",
+            "No prob, it was lit! What’s up next?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "My bad, zoned out. What’s the tea?",
+            "All good, I was spilling about my love for sunsets!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you throw me a vibe check idea?",
+            "Make a mood board with your fave pics and colors!"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "You down to talk about cozy night plans?",
+            "Heck yeah! What’s your ideal cozy night like?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "Let’s chat about dream hangout spots?",
+            "Sweet plan! Where’s your dream chill spot?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m kinda bummed out today.",
+            "Sorry to hear, pal. Wanna talk it out?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s the word, fam?",
+            "Just kickin’ it! What’s the word with you?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a convo that’s been straight fire?",
+            "Been vibin’ on workout routines! What’s fire for you?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m outtie, but let’s link up later!",
+            "Solid, don’t be a stranger!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re serving major chat energy!",
+            "Ayy, thanks! You’re dishing it right back."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for keeping this convo poppin’!",
+            "Yo, my pleasure! What’s next on the list?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Whoops, dropped the ball. What’s up?",
+            "No stress, I was raving about my fave playlist!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you toss me a fun evening idea?",
+            "Try a virtual karaoke sesh with friends!"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "You good with chatting about reality TV?",
+            "Totally, I’m here for it! What’s a show you watch?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How ‘bout we talk about morning routines?",
+            "Love that! What’s your morning ritual?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m so stoked for a new album drop!",
+            "That’s hype! Who’s the artist?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Yo, what’s the scene today?",
+            "Just vibin’ hard! What’s your scene?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a topic you’re totally into rn?",
+            "I’m digging skincare tips! What’s your thing?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Gotta roll, but this was dope!",
+            "Ayy, come back for more!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re killing it with these chats!",
+            "Thanks, fam! You’re slaying too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the fire convo!",
+            "Anytime, it’s been real! What’s up next?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "My bad, I blanked. What’s the vibe?",
+            "Chill, I was hyped about my love for thrift shopping!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you drop a motivational vibe?",
+            "You’re a rockstar—keep shining, no matter what!"
+        ],
+        "acts": [
+            "request",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "You cool with talking about online trends?",
+            "Yup, I’m all about it! What’s a trend you’re seeing?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "Let’s talk about binge-worthy shows?",
+            "Fire idea! What’s a show you can’t stop watching?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m feeling super chill rn.",
+            "Love that for you! What’s got you so zen?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s good, homie?",
+            "Just keepin’ it cool! What’s good with you?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a chat that’s been mad fun lately?",
+            "Been buzzing about festival plans! What’s fun for you?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m peacing out, but let’s vibe again!",
+            "Solid, catch you on the flip!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re straight-up a chat legend!",
+            "Ayy, thanks! You’re a legend too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for making this chat so lit!",
+            "Yo, no prob! Let’s keep the party going."
+        ],
+        "acts": [
+            "gratitude",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "Oops, I flubbed that. What’s up?",
+            "No worries, I was talking about my fave vlogger!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you toss me a fun fact about social media?",
+            "The first tweet was sent in 2006—wild, right?"
+        ],
+        "acts": [
+            "request",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "You down to chat about workout vibes?",
+            "Heck yeah! What’s your go-to workout?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How ‘bout we talk about dream pets?",
+            "Yesss, love that! What’s your dream pet?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m hyped for a new game stream!",
+            "That’s sick! What game’s on the stream?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Ayy, what’s the mood rn?",
+            "Feelin’ fly! What’s your mood?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a topic you’re mad hyped for?",
+            "I’m all about foodie adventures! What’s your hype?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Gotta bounce, but this was epic!",
+            "Yo, it was! Slide back soon."
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re giving off big chat energy!",
+            "Thanks, fam! You’re bringing it too."
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the dope vibes!",
+            "Anytime! What’s keeping the vibes high?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "My bad, I missed that. What’s the word?",
+            "Chill, I was hyped about my love for DIY projects!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you drop a chill weekend idea?",
+            "Try a picnic with some bomb snacks and music!"
+        ],
+        "acts": [
+            "request",
+            "suggestion"
+        ]
+    },
+    {
+        "dialog": [
+            "You cool with talking about pop culture?",
+            "Totally, I’m here for it! What’s a pop culture thing you love?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "Let’s chat about fave emojis?",
+            "Fire plan! What’s an emoji you use all the time?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m feeling hella happy today!",
+            "That’s the vibe! What’s got you so stoked?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Yo, what’s the tea today?",
+            "Just sippin’ on good vibes! What’s your tea?"
+        ],
+        "acts": [
+            "greeting",
+            "greeting"
+        ]
+    },
+    {
+        "dialog": [
+            "What’s a convo that’s been totally poppin’?",
+            "Been buzzing about cozy aesthetics! What’s poppin’ for you?"
+        ],
+        "acts": [
+            "inquiry",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m out, but let’s keep this energy!",
+            "Bet, keep it real till next time!"
+        ],
+        "acts": [
+            "farewell",
+            "farewell"
+        ]
+    },
+    {
+        "dialog": [
+            "You’re a whole vibe in these chats!",
+            "Ayy, thanks! You’re a vibe and a half!"
+        ],
+        "acts": [
+            "compliment",
+            "compliment"
+        ]
+    },
+    {
+        "dialog": [
+            "Thanks for the straight-up awesome talk!",
+            "Yo, it’s been real! What’s next?"
+        ],
+        "acts": [
+            "gratitude",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "Oops, I blanked out. What’s good?",
+            "No prob, I was vibin’ about my love for coffee shops!"
+        ],
+        "acts": [
+            "apology",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "Can you hit me with a fun fact about music?",
+            "The shortest song ever is 1.316 seconds long!"
+        ],
+        "acts": [
+            "request",
+            "expression"
+        ]
+    },
+    {
+        "dialog": [
+            "You down to talk about aesthetic vibes?",
+            "Heck yeah! What’s an aesthetic you’re into?"
+        ],
+        "acts": [
+            "inquiry",
+            "confirmation"
+        ]
+    },
+    {
+        "dialog": [
+            "How ‘bout we talk about dream collabs?",
+            "Love that! What’s a collab you’d die to see?"
+        ],
+        "acts": [
+            "suggestion",
+            "inquiry"
+        ]
+    },
+    {
+        "dialog": [
+            "I’m super hyped for a chill day!",
+            "That’s the move! What’s making your day chill?"
+        ],
+        "acts": [
+            "expression",
+            "inquiry"
+        ]
+    }
+]

@@ -17,7 +17,7 @@ def compute_cosine_similarity(input_sentence):
 
     # Get index of most similar sentence
     best_idx = similarities.argmax()
-    return train_pairs[best_idx + 1]
+    return train_pairs[best_idx + 1][0]
 
 while True:
     dialog = input("Enter dialog (or 'quit' to exit): ")
