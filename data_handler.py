@@ -21,7 +21,3 @@ act2idx = {
 def train_test_split():
     X, y = split_vector_sparse(train_pairs, word2idx, act2idx)
     return X, y
-
-X, y = train_test_split()
-
-print(y[:2])

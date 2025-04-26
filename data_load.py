@@ -1,7 +1,7 @@
 import json
 
 # Load data from JSON file
-with open('qa-dataset.json', 'r') as file:
+with open('qa-dataset.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # ACTS:

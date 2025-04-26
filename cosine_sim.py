@@ -10,7 +10,7 @@ def compute_cosine_similarity(input_sentence):
     input_vec = csr_matrix((val, ([0] * len(idx), idx)), shape=(1, len(word2idx)))
 
     # Prepare dataset matrix
-    X, _ = train_test_split("train")
+    X, _ = train_test_split()
 
     # Compute cosine similarities
     similarities = cosine_similarity(input_vec, X).flatten()
