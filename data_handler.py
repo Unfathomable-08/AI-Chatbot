@@ -1,9 +1,13 @@
 from data_proceeding import dialog_separator, tokenization, split_vector_sparse
-from data_load import data
+from data_load import data, wiki_data
 
-train_pairs = dialog_separator(data)
+qa_pairs = dialog_separator(data)
+wikiqa_pairs = dialog_separator(wiki_data)
 
-tokens = tokenization(train_pairs)
+all_pairs = qa_pairs + wikiqa_pairs
+
+tokens = tokenization(all_pairs)
+
 word2idx = {word: idx for idx, word in enumerate(tokens)}
 act2idx = {
     "greeting": 0,
@@ -15,9 +19,11 @@ act2idx = {
     "request": 6,
     "confirmation": 7,
     "suggestion": 8,
-    "expression": 9
+    "expression": 9,
+    "question": 10,
+    "answer": 11
 }
 
 def train_test_split():
-    X, y = split_vector_sparse(train_pairs, word2idx, act2idx)
+    X, y = split_vector_sparse(all_pairs, word2idx, act2idx)
     return X, y

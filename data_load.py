@@ -1,8 +1,18 @@
+from datasets import load_dataset, concatenate_datasets
 import json
+import os
+
+path1 = os.path.join(os.path.dirname(__file__), 'qa-dataset.json')
+path2 = os.path.join(os.path.dirname(__file__), 'wikiqa-dataset.json')
 
 # Load data from JSON file
-with open('qa-dataset.json', 'r', encoding='utf-8') as file:
+with open(path1, 'r', encoding='utf-8') as file:
     data = json.load(file)
+
+# Load wiki qa dataset
+with open(path2, 'r', encoding='utf-8') as file:
+    wiki_data = json.load(file)
+
 
 # ACTS:
 
@@ -16,3 +26,5 @@ with open('qa-dataset.json', 'r', encoding='utf-8') as file:
 # confirmation 7
 # suggestion 8
 # expression 9
+# question 10
+# answer 11
