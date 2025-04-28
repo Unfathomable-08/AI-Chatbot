@@ -3,7 +3,7 @@ from cosine_sim import compute_cosine_similarity
 
 def preprocess_text(text):
     """Remove extra spaces before punctuation marks."""
-    text = text.replace(" ,", ",").replace(" ?", "?").replace(" !", "!").replace(" .", ".")
+    text = text.replace(" ,", ",").replace(" ?", "?").replace(" !", "!").replace(" .",)
     return text.strip()
 
 @cl.on_message
