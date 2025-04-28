@@ -1,19 +1,18 @@
-from flask import Flask, render_template, send_from_directory, request, jsonify
+import chainlit as cl
 from cosine_sim import compute_cosine_similarity
 
-app = Flask(__name__)
+@cl.on_message
+async def main(message: cl.Message):
+    try:
+        # Extract user input from the message
+        input_data = message.content.strip()
 
-@app.route("/")
-def home():
-    return render_template("index.html")
+        # Call the cosine similarity
+        response = compute_cosine_similarity(input_data)
 
-@app.route('/send-message', methods=['POST'])
-def send_message():
-    data = request.get_json()
-    user_message = data.get('message')
+        # Send the prediction back to the user
+        await cl.Message(content=response).send()
 
-    reply = compute_cosine_similarity(user_message)
-    return jsonify({'reply': reply})
-
-if __name__ == "__main__":
-    app.run(debug=True)
+    except Exception as e:
+        # Handle errors
+        await cl.Message(content=f"Error: {str(e)}. Please check your input and try again.").send()
