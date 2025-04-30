@@ -9,11 +9,9 @@ const chatApp = () => {
                 console.log(this.input)
                 this.loading = true;
                 this.messages.push({ sender: 'you', text: this.input, _id: this.messages.length + 1 });
-                console.log(this.messages)
 
                 fetchFn(this.input).then(reply => {
                     this.input = '';
-                    console.log(reply);
                     this.messages.push({ sender: 'bot', text: reply, _id: this.messages.length + 1 });
                     this.loading = false;
                 });
