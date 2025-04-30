@@ -1,26 +1,19 @@
-import chainlit as cl
+from flask import Flask, render_template, request, jsonify
 from cosine_sim import compute_cosine_similarity
-
-def preprocess_text(text):
-    """Remove extra spaces before punctuation marks."""
-    text = text.replace(" ,", ",").replace(" ?", "?").replace(" !", "!").replace(" .",)
-    return text.strip()
-
-@cl.on_message
-async def main(message: cl.Message):
-    try:
-        # Extract user input from the message
-        input_data = message.content.strip()
-
-        # Call the cosine similarity
-        response = compute_cosine_similarity(input_data)
-
-        # Remove extra spaces beforepanctuations
-        response = preprocess_text(response)
-
-        # Send the prediction back to the user
-        await cl.Message(content=response).send()
-
-    except Exception as e:
-        # Handle errors
-        await cl.Message(content=f"Error: {str(e)}. Please check your input and try again.").send()
+ 
+app = Flask(__name__)
+ 
+@app.route("/")
+def home():
+    return render_template("index.html")
+ 
+@app.route('/send-message', methods=['POST'])
+def send_message():
+    data = request.get_json()
+    user_message = data.get('message')
+ 
+    reply = compute_cosine_similarity(user_message)
+    return jsonify({'reply': reply})
+ 
+if __name__ == "__main__":
+    app.run(debug=True)

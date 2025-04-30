@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat AI (Created by Muhammad)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        :root {
+            --primary: #e2f1ff;
+            /* Light slate background */
+            --accent: #1d4ed8;
+            /* Professional blue for buttons and left messages */
+            --text-primary: #111827;
+            /* Dark gray for primary text */
+            --text-secondary: #6b7280;
+            /* Muted gray for placeholders */
+            --message-right: #e5e7eb;
+            /* Light gray for right messages */
+            --border: #d1d5db;
+            /* Subtle border color */
+        }
+    </style>
+</head>
+
+<body class="bg-[var(--primary)] h-screen flex flex-col font-sans" x-data="chatApp()">
+
+    <!-- Navbar -->
+    <div class="bg-[var(--primary)] shadow-lg p-4 mb-2 flex justify-between items-center">
+        <h1 class="text-lg font-semibold text-[var(--text-primary)]">Evo Mind</h1>
+        <button class="text-[var(--accent)] text-xl hover:text-[var(--accent)]/80 transition">
+            <i class="fas fa-cog"></i>
+        </button>
+    </div>
+
+    <!-- Chat area -->
+    <div class="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4">
+        <template x-for="message in messages" :key="message._id">
+            <div :class="message.sender === 'bot' ? 'flex justify-start' : 'flex justify-end'">
+                <div :class="message.sender === 'bot' ? 'bg-[var(--message-right)] text-[var(--text-primary)]' : 'bg-[var(--accent)] text-white'"
+                    class="rounded-2xl p-3 max-w-[80%] sm:max-w-md shadow-lg animate-slide-in">
+                    <span x-text="message.text"></span>
+                </div>
+            </div>
+        </template>
+    </div>
+
+    <!-- Input area -->
+    <div class="bg-[var(--primary)] border-t border-[var(--border)] p-4 sm:p-6 shadow-inner relative z-10">
+        <div class="max-w-4xl mx-auto flex items-center space-x-2">
+            <input type="text" placeholder="Type your message..." x-model="input" @keyup.enter="sentMessage"
+                class="flex-1 border border-[var(--border)] rounded-lg shadow-lg p-3 text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] placeholder-[var(--text-secondary)] text-sm sm:text-base">
+            <button @click="sentMessage"
+                class="bg-[var(--accent)] text-white shadow-lg rounded-lg px-5 py-3 hover:bg-[var(--accent)]/90 focus:outline-none focus:ring-2 focus:ring-[var(--accent)] transition text-sm sm:text-base whitespace-nowrap">
+                Send
+            </button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
