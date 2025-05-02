@@ -1,10 +1,11 @@
 from data_proceeding import dialog_separator, tokenization, split_vector_sparse
-from data_load import data, wiki_data
+from data_load import data, wiki_data, sciq_data
 
 qa_pairs = dialog_separator(data)
 wikiqa_pairs = dialog_separator(wiki_data)
+sciq_pairs = dialog_separator(sciq_data)
 
-all_pairs = qa_pairs + wikiqa_pairs
+all_pairs = qa_pairs + wikiqa_pairs + sciq_pairs
 
 tokens = tokenization(all_pairs)
 

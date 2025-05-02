@@ -3,6 +3,7 @@ import os
 
 path1 = os.path.join(os.path.dirname(__file__), 'qa-dataset.json')
 path2 = os.path.join(os.path.dirname(__file__), 'wikiqa-dataset.json')
+path3 = os.path.join(os.path.dirname(__file__), 'sciq_dataset.json')
 
 # Load data from JSON file
 with open(path1, 'r', encoding='utf-8') as file:
@@ -11,6 +12,10 @@ with open(path1, 'r', encoding='utf-8') as file:
 # Load wiki qa dataset
 with open(path2, 'r', encoding='utf-8') as file:
     wiki_data = json.load(file)
+
+# Load SciQ qa dataset
+with open(path3, 'r', encoding='utf-8') as file:
+    sciq_data = json.load(file)
 
 
 # ACTS:

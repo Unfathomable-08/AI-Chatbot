@@ -25,6 +25,7 @@ Exploring **Machine Learning** and **AI** with hands-on projects.
 
 - `500+` Daily Dialogues  
 - `1000+` Questions sourced from **Wikipedia**
+- `13680` Questions from SciQ dataset, crowdsourced science exam questions.
 
 ---
 
