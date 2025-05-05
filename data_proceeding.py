@@ -15,10 +15,19 @@ def dialog_separator(dataset):
     pairs = []
     for data in dataset:
         dialogs = data["dialog"]
-        acts = data["acts"]
+        topics = data["topic"]
         for i in range(len(dialogs)):
-            pairs.append((dialogs[i], acts[i]))
+            pairs.append((dialogs[i], topics))
     return pairs
+
+def create_topic2idx(dataset):
+    topics = set()
+    for _, topic in dataset:
+        topics.add(topic)  # Collect unique topics
+
+    # Create a dictionary mapping each topic to a unique index
+    topic2idx = {topic: idx for idx, topic in enumerate(sorted(topics))}
+    return topic2idx
 
 def tokenization(data):
     tokens = set()
@@ -37,17 +46,17 @@ def bow_vector_sparse(sentence, word2idx):
             values.append(1.0)
     return indices, values
 
-def split_vector_sparse(data_pairs, word2idx, act2idx):
+def split_vector_sparse(data_pairs, word2idx, topic2idx):
     data = []
     row_indices = []
     col_indices = []
     y = []
-    for i, (dialog, act) in enumerate(data_pairs):
+    for i, (dialog, topic) in enumerate(data_pairs):
         indices, values = bow_vector_sparse(dialog, word2idx)
         data.extend(values)
         row_indices.extend([i] * len(values))
         col_indices.extend(indices)
-        y.append(act2idx.get(act, -1))
+        y.append(topic2idx.get(topic, -1))
 
     X = csr_matrix((data, (row_indices, col_indices)), shape=(len(data_pairs), len(word2idx)))
     return X, y

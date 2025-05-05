@@ -2,7 +2,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from scipy.sparse import csr_matrix
 from data_proceeding import dialog_separator, tokenization, split_vector_sparse, bow_vector_sparse
-from data_handler import train_test_split, word2idx, all_pairs
+from data_handler import xy_split, word2idx, all_pairs
 
 def compute_cosine_similarity(input_sentence):
     # Convert input sentence to sparse vector
@@ -10,7 +10,7 @@ def compute_cosine_similarity(input_sentence):
     input_vec = csr_matrix((val, ([0] * len(idx), idx)), shape=(1, len(word2idx)))
 
     # Prepare dataset matrix
-    X, _ = train_test_split()
+    X, _ = xy_split()
 
     # Compute cosine similarities
     similarities = cosine_similarity(input_vec, X).flatten()

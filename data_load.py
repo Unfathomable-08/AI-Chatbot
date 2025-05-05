@@ -1,9 +1,9 @@
 import json
 import os
 
-path1 = os.path.join(os.path.dirname(__file__), 'qa-dataset.json')
+path1 = os.path.join(os.path.dirname(__file__), 'general-dataset.json')
 path2 = os.path.join(os.path.dirname(__file__), 'wikiqa-dataset.json')
-path3 = os.path.join(os.path.dirname(__file__), 'sciq_dataset.json')
+path3 = os.path.join(os.path.dirname(__file__), 'sciq-dataset.json')
 
 # Load data from JSON file
 with open(path1, 'r', encoding='utf-8') as file:

@@ -8,7 +8,7 @@
       "question",
       "answer"
     ],
-    "topic": "Glacier cave"
+    "topic": "Geography"
   },
   {
     "dialog": [
@@ -19,7 +19,7 @@
       "question",
       "answer"
     ],
-    "topic": "Tablespoon"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -30,7 +30,7 @@
       "question",
       "answer"
     ],
-    "topic": "Tablespoon"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -41,7 +41,7 @@
       "question",
       "answer"
     ],
-    "topic": "Tablespoon"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -52,7 +52,7 @@
       "question",
       "answer"
     ],
-    "topic": "Harry Potter"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -63,7 +63,7 @@
       "question",
       "answer"
     ],
-    "topic": "Rocket engine"
+    "topic": "Physics"
   },
   {
     "dialog": [
@@ -74,7 +74,7 @@
       "question",
       "answer"
     ],
-    "topic": "Cholera"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -85,7 +85,7 @@
       "question",
       "answer"
     ],
-    "topic": "Anne Frank"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -96,7 +96,7 @@
       "question",
       "answer"
     ],
-    "topic": "Radial engine"
+    "topic": "Physics"
   },
   {
     "dialog": [
@@ -107,7 +107,7 @@
       "question",
       "answer"
     ],
-    "topic": "Deepwater drilling"
+    "topic": "Physics"
   },
   {
     "dialog": [
@@ -118,7 +118,7 @@
       "question",
       "answer"
     ],
-    "topic": "Monica Lewinsky"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -129,7 +129,7 @@
       "question",
       "answer"
     ],
-    "topic": "Frank Sinatra"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -140,7 +140,7 @@
       "question",
       "answer"
     ],
-    "topic": "J. K. Rowling"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -151,7 +151,7 @@
       "question",
       "answer"
     ],
-    "topic": "Auburndale, Florida"
+    "topic": "Geography"
   },
   {
     "dialog": [
@@ -162,7 +162,7 @@
       "question",
       "answer"
     ],
-    "topic": "Kirk Douglas"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -173,7 +173,7 @@
       "question",
       "answer"
     ],
-    "topic": "Bob Seger"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -184,7 +184,7 @@
       "question",
       "answer"
     ],
-    "topic": "Richard Nixon"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -195,7 +195,7 @@
       "question",
       "answer"
     ],
-    "topic": "World Trade Center"
+    "topic": "History"
   },
   {
     "dialog": [
@@ -206,7 +206,7 @@
       "question",
       "answer"
     ],
-    "topic": "Electron shell"
+    "topic": "Chemistry"
   },
   {
     "dialog": [
@@ -217,7 +217,7 @@
       "question",
       "answer"
     ],
-    "topic": "List of Presidents of the United States"
+    "topic": "Geography"
   },
   {
     "dialog": [
@@ -228,7 +228,7 @@
       "question",
       "answer"
     ],
-    "topic": "Bea Arthur"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -239,7 +239,7 @@
       "question",
       "answer"
     ],
-    "topic": "state school"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -250,7 +250,7 @@
       "question",
       "answer"
     ],
-    "topic": "state school"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -261,7 +261,7 @@
       "question",
       "answer"
     ],
-    "topic": "Light-independent reactions"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -272,7 +272,7 @@
       "question",
       "answer"
     ],
-    "topic": "Light-independent reactions"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -316,7 +316,7 @@
       "question",
       "answer"
     ],
-    "topic": "Mars rover"
+    "topic": "Physics"
   },
   {
     "dialog": [
@@ -2956,7 +2956,7 @@
       "question",
       "answer"
     ],
-    "topic": "Hydrogen production"
+    "topic": "Chemistry"
   },
   {
     "dialog": [
@@ -4562,7 +4562,7 @@
       "question",
       "answer"
     ],
-    "topic": "Big Bird"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -5343,7 +5343,7 @@
       "question",
       "answer"
     ],
-    "topic": "The Dark Knight (film)"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -5354,7 +5354,7 @@
       "question",
       "answer"
     ],
-    "topic": "Assassination of Archduke Franz Ferdinand of Austria"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -5365,7 +5365,7 @@
       "question",
       "answer"
     ],
-    "topic": "Ossicles"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -5618,7 +5618,7 @@
       "question",
       "answer"
     ],
-    "topic": "World War I"
+    "topic": "History"
   },
   {
     "dialog": [
@@ -5959,7 +5959,7 @@
       "question",
       "answer"
     ],
-    "topic": "United States presidential election, 1968"
+    "topic": "History"
   },
   {
     "dialog": [
@@ -5970,7 +5970,7 @@
       "question",
       "answer"
     ],
-    "topic": "Kurt Cobain"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -5981,7 +5981,7 @@
       "question",
       "answer"
     ],
-    "topic": "Millwright"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -6927,7 +6927,7 @@
       "question",
       "answer"
     ],
-    "topic": "World War II"
+    "topic": "History"
   },
   {
     "dialog": [
@@ -7598,7 +7598,7 @@
       "question",
       "answer"
     ],
-    "topic": "World War I"
+    "topic": "History"
   },
   {
     "dialog": [
@@ -7664,7 +7664,7 @@
       "question",
       "answer"
     ],
-    "topic": "BlackBerry"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -7675,7 +7675,7 @@
       "question",
       "answer"
     ],
-    "topic": "Demand curve"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -7686,7 +7686,7 @@
       "question",
       "answer"
     ],
-    "topic": "Virtual machine"
+    "topic": "Physics"
   },
   {
     "dialog": [
@@ -7928,7 +7928,7 @@
       "question",
       "answer"
     ],
-    "topic": "Watergate scandal"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -7939,7 +7939,7 @@
       "question",
       "answer"
     ],
-    "topic": "Watergate scandal"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -8170,7 +8170,7 @@
       "question",
       "answer"
     ],
-    "topic": "Bleeding Kansas"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -8181,7 +8181,7 @@
       "question",
       "answer"
     ],
-    "topic": "Benzene"
+    "topic": "Chemistry"
   },
   {
     "dialog": [
@@ -8687,7 +8687,7 @@
       "question",
       "answer"
     ],
-    "topic": "Heavy metal music"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -9061,7 +9061,7 @@
       "question",
       "answer"
     ],
-    "topic": "Vitamin A"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -9072,7 +9072,7 @@
       "question",
       "answer"
     ],
-    "topic": "Vitamin A"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -9391,7 +9391,7 @@
       "question",
       "answer"
     ],
-    "topic": "Andy Griffith"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -9853,7 +9853,7 @@
       "question",
       "answer"
     ],
-    "topic": "Rolling Rock"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -10667,7 +10667,7 @@
       "question",
       "answer"
     ],
-    "topic": "World War Hulk"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -10733,7 +10733,7 @@
       "question",
       "answer"
     ],
-    "topic": "Vitamin B12"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -10744,7 +10744,7 @@
       "question",
       "answer"
     ],
-    "topic": "Vitamin B12"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -10887,7 +10887,7 @@
       "question",
       "answer"
     ],
-    "topic": "Hydrogen"
+    "topic": "Chemistry"
   },
   {
     "dialog": [
@@ -10953,7 +10953,7 @@
       "question",
       "answer"
     ],
-    "topic": "Septic shock"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -11481,7 +11481,7 @@
       "question",
       "answer"
     ],
-    "topic": "antibody"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -11492,7 +11492,7 @@
       "question",
       "answer"
     ],
-    "topic": "antibody"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -11503,7 +11503,7 @@
       "question",
       "answer"
     ],
-    "topic": "antibody"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -11514,7 +11514,7 @@
       "question",
       "answer"
     ],
-    "topic": "antibody"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -11921,7 +11921,7 @@
       "question",
       "answer"
     ],
-    "topic": "Semen"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -11932,7 +11932,7 @@
       "question",
       "answer"
     ],
-    "topic": "Alkali"
+    "topic": "Chemistry"
   },
   {
     "dialog": [
@@ -11987,7 +11987,7 @@
       "question",
       "answer"
     ],
-    "topic": "Plasma (physics)"
+    "topic": "Physics"
   },
   {
     "dialog": [
@@ -13120,7 +13120,7 @@
       "question",
       "answer"
     ],
-    "topic": "World War I"
+    "topic": "History"
   },
   {
     "dialog": [
@@ -14242,7 +14242,7 @@
       "question",
       "answer"
     ],
-    "topic": "Sodium hypochlorite"
+    "topic": "Chemistry"
   },
   {
     "dialog": [
@@ -14253,7 +14253,7 @@
       "question",
       "answer"
     ],
-    "topic": "Sodium hypochlorite"
+    "topic": "Chemistry"
   },
   {
     "dialog": [
@@ -14616,7 +14616,7 @@
       "question",
       "answer"
     ],
-    "topic": "vaccine"
+    "topic": "Biology"
   },
   {
     "dialog": [
@@ -15188,7 +15188,7 @@
       "question",
       "answer"
     ],
-    "topic": "Atmosphere of Mercury"
+    "topic": "Physics"
   },
   {
     "dialog": [
@@ -16090,7 +16090,7 @@
       "question",
       "answer"
     ],
-    "topic": "Kenworth"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -16189,7 +16189,7 @@
       "question",
       "answer"
     ],
-    "topic": "Eliot Spitzer prostitution scandal"
+    "topic": "Others"
   },
   {
     "dialog": [
@@ -16200,6 +16200,6 @@
       "question",
       "answer"
     ],
-    "topic": "Chris Cornell"
+    "topic": "Others"
   }
 ]
