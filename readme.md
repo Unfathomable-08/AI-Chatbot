@@ -15,9 +15,10 @@ Exploring **Machine Learning** and **AI** with hands-on projects.
 
 ## 🛠️ Tech Stack
 
-- [Chainlit](https://www.chainlit.io/) – UI for interacting with the chatbot  
 - [scikit-learn](https://scikit-learn.org/) – for implementing cosine similarity  
 - [NLTK](https://www.nltk.org/) – natural language processing toolkit
+- [Flask](https://flask.palletsprojects.com/) – for backend logics
+- [Alpine.JS](https://www.alpinejs.dev/) – for ease of work and better result
 
 ---
 
